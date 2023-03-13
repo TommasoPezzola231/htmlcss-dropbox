@@ -1,14 +1,25 @@
 /********Header*********/
+header {
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+}
+
 header > nav {
     height: 70px;
-    background-color: aqua;
+}
+
+header > nav > div {
+    width: 35%;
 }
 
 .boxHeader {
-    height: 20px;
-    width: 80px;
-    background-color: orange;
     margin: 0 5px;
+}
+
+.blueButton {
+    background-color: #0061ff;
+    color: white;
 }
 
 /**********Main**********/
@@ -18,7 +29,7 @@ header > nav {
 
 h1 {
     font-size: 60px;
-    padding-top: 100px;
+    padding-top: 170px;
 }
 
 .testoJumbotron {

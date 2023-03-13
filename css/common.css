@@ -23,8 +23,18 @@
     justify-content: space-between;
 }
 
+.justifyContentFE{
+    justify-content: flex-end;
+}
+
 .alignItemsC {
     align-items: center;
+}
+
+button {
+    border-style: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
 }
 
 .boxedLarge {
@@ -35,6 +45,18 @@
 .boxedSmall {
     width: 800px;
     margin: 0 auto;
+}
+
+.width20 {
+    width: 20%;
+}
+
+.width25 {
+    width: calc(100% / 4);
+}
+
+.width40 {
+    width: 40%;
 }
 
 .width30 {
