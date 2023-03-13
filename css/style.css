@@ -83,3 +83,18 @@ h1 {
     min-height: 400px;
     background-color: orange;
 }
+
+.fotoOperazione {
+    width: 100%;
+    min-height: 160px;
+    background-color: greenyellow;
+}
+
+.flexWrap ~ h3 {
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
+.flexWrap ~ a {
+    margin-bottom: 7rem;
+}

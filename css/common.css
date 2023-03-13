@@ -10,6 +10,15 @@
     flex-direction: row;
 }
 
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
 .JustifyContentSB {
     justify-content: space-between;
 }
