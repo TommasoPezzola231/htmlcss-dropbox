@@ -29,19 +29,27 @@ header > nav > div {
 
 h1 {
     font-size: 60px;
+    font-weight: 900;
     padding-top: 170px;
+    margin-bottom: 3rem;
 }
 
 .testoJumbotron {
     width: calc(100% / 3);
-    min-height: 300px;
-    background-color: orange;
+}
+
+.testoJumbotron > button {
+    margin: 2rem 0;
+}
+
+.testoJumbotron > i {
+    font-size: 40px;
+    margin-top: 3rem;
 }
 
 .fotoJumbotron {
     width: calc((100% / 3) * 2);
     height: 100px;
-    background-color: orangered;
 }
 
 .fotoJumbotron > img {
