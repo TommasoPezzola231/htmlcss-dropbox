@@ -1,0 +1,12 @@
+/********Header*********/
+header > nav {
+    height: 70px;
+    background-color: aqua;
+}
+
+.boxHeader {
+    height: 20px;
+    width: 80px;
+    background-color: orange;
+    margin: 0 5px;
+}
