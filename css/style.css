@@ -100,7 +100,8 @@ h1 {
 }
 
 #sponsor {
-    width: calc(100vw - 17px);
+    width: 100vw;
+    max-width: 100%;
 }
 
 .fotoSponsor {
@@ -122,4 +123,17 @@ h1 {
 
 .foto1, .foto4 {
     background-color: red;
+}
+
+.provaGratuita {
+    padding: 4rem 0;
+}
+
+#faq > h3 {
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+}
+
+hr {
+   margin: 2rem 0; 
 }
