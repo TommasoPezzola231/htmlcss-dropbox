@@ -27,8 +27,28 @@
     justify-content: flex-end;
 }
 
+.justifyContentC{
+    justify-content: center;
+}
+
 .alignItemsC {
     align-items: center;
+}
+
+.positionAbsolute {
+    position: absolute;
+}
+
+.positionRelative {
+    position: relative;
+}
+
+.top50 {
+    top: 50%;
+}
+
+.left50 {
+    left: 50%;
 }
 
 button {
@@ -73,6 +93,10 @@ button {
 
 .width40 {
     width: 40%;
+}
+
+.width50 {
+    width: 50%;
 }
 
 .minHeight750 {
