@@ -116,13 +116,27 @@ input[type="radio"] {
 .contactTeam {
     min-height: 170px;
     width: calc((100% / 3) * 2);
-    background-color: orangered;
+}
+
+.contactTeam > h4 {
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contactTeam > .bold {
+    margin-bottom: 2rem;
 }
 
 .contactTeamButton {
     min-height: 170px;
     width: calc(100% / 3);
-    background-color: orange;
+}
+
+.contactTeamButton > button {
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 .partner {
@@ -134,13 +148,34 @@ input[type="radio"] {
 .fotoPartner {
     width: 60%;
     min-height: 400px;
-    background-color: orangered;
+}
+
+.fotoPartner > img {
+    width: 100%;
+    display: block;
 }
 
 .trovaPartner {
     width: 40%;
     min-height: 400px;
-    background-color: orange;
+}
+
+.trovaPartner > h4 {
+    padding-top: 2rem;
+    font-size: 25px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.trovaPartner > p {
+    margin-left: 2rem;
+}
+
+.trovaPartner > button {
+    margin-top: 1.5rem;
+    border: 1px solid black;
+    margin-left: 2rem;
+    background-color: white;
 }
 
 .fotoOperazione {
