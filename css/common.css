@@ -47,6 +47,10 @@ button {
     margin: 0 auto;
 }
 
+.borderBottom {
+    border: 1px solid gray;
+}
+
 .width20 {
     width: 20%;
 }
@@ -62,9 +66,17 @@ button {
 .width30 {
     width: 30%;
     min-height: 750px;
-    background-color: rosybrown;
+    border: 1px solid gray;
 }
 
 .backgroundColorSkyBlue {
     background-color: #b4d0e7;
+}
+
+.paddingPlans {
+    padding: 2rem 1rem;
+}
+
+.bold {
+    font-weight: 700;
 }

@@ -3,6 +3,7 @@ header {
     position: fixed;
     width: 100vw;
     background-color: white;
+    z-index: 100;
 }
 
 header > nav {
@@ -42,9 +43,11 @@ h1 {
     margin: 2rem 0;
 }
 
-.testoJumbotron > i {
+.testoJumbotron > a > i{
     font-size: 40px;
     margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: black;
 }
 
 .fotoJumbotron {
@@ -56,12 +59,31 @@ h1 {
     width: 100%;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 #plans {
     margin-top: 8rem;
 }
 
 #plans > h3 {
     margin-bottom: 3rem;
+}
+
+#plans h5 {
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+#plans h4 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.marginPlans {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #monthlyBilling {
@@ -71,6 +93,24 @@ h1 {
 .marginTopBottom {
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.buttonPlans {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+#puntiSalienti i {
+    color: #0061ff;
+}
+
+input[type="radio"] {
+    transform: scale(1.5);
+    z-index: -1;
 }
 
 .contactTeam {
@@ -124,13 +164,13 @@ h1 {
 }
 
 .fotoSponsor {
-    width: 30%;
+    width: calc(100% / 3);
     height: calc(100vw / 3);
     background-color: blueviolet;
 }
 
 .descrizioneSponsor {
-    width: 40%;
+    width: calc(100% / 3);
     height: calc(100vw / 3);
     background-color: lightsalmon;
 }
