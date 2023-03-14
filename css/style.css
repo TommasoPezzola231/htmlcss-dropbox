@@ -180,8 +180,21 @@ input[type="radio"] {
 
 .fotoOperazione {
     width: 100%;
-    min-height: 160px;
-    background-color: greenyellow;
+}
+
+.fotoOperazione > img {
+    width: 100%;
+    display: block;
+}
+
+.spiegazione > h4 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.spiegazione > p {
+    margin-bottom: 3rem;
 }
 
 .flexWrap ~ h3 {

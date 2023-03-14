@@ -67,12 +67,15 @@ button {
     width: calc(100% / 4);
 }
 
+.width30 {
+    width: 30%;
+}
+
 .width40 {
     width: 40%;
 }
 
-.width30 {
-    width: 30%;
+.minHeight750 {
     min-height: 750px;
 }
 
