@@ -58,13 +58,21 @@ button {
 }
 
 .boxedLarge {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .boxedSmall {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
+}
+
+.marginL1 {
+    margin-left: 1rem;
+}
+
+.fontSize15 {
+    font-size: 15px;
 }
 
 .border {
@@ -72,7 +80,7 @@ button {
 }
 
 .borderBottom {
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .textAlignCenter{

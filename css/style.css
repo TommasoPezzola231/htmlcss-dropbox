@@ -81,6 +81,18 @@ h3 {
     margin-bottom: 1rem;
 }
 
+.hrPlans {
+    color: lightgray;
+    width: 20%;
+}
+
+.month {
+    color: lightgray;
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
 .marginPlans {
     margin-top: 1rem;
     margin-bottom: 1rem;
